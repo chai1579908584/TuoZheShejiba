@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <com.ruffian.library.RVPIndicator
+        android:id="@+id/my_rvpindicator"
+        android:layout_width="@dimen/x200"
+        android:layout_height="@dimen/x50"
+        android:layout_below="@+id/rl_title"
+        android:layout_centerHorizontal="true"
+        app:text_color_normal="#333333"
+        app:text_color_selected="#ffd200"
+        app:text_size="18sp"
+        app:indicator_color="#ffd200"
+        app:indicator_style="line"
+        app:indicator_height="1dp"
+        app:indicator_visible_count="2"
+        app:style_line_padding="@dimen/x25"
+        >
+
+    </com.ruffian.library.RVPIndicator>
+</RelativeLayout>

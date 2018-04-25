@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.tz.tuozhe.Activity.Case.PersonageActivity"
+    android:background="#ffffff">
+
+    <!--<com.example.tz.tuozhe.Utils.MyScrollView-->
+        <!--android:id="@+id/scrollview"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x140"
+        android:background="#fff3bf"
+        >
+        <ImageView
+            android:id="@+id/return_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/return_re"
+            android:layout_marginTop="@dimen/x8"
+            android:layout_marginLeft="@dimen/x12"
+            />
+        <ImageView
+            android:id="@+id/head_image"
+            android:layout_width="@dimen/x80"
+            android:layout_height="@dimen/x80"
+            android:layout_marginLeft="@dimen/x15"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"
+            />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dusk"
+            android:textColor="#333333"
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/head_image"
+            android:layout_marginLeft="@dimen/x12"
+            android:layout_marginTop="@dimen/x35"
+            />
+
+        <LinearLayout
+            android:id="@+id/ll_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/name"
+            android:layout_toRightOf="@+id/head_image"
+            android:layout_marginTop="@dimen/x4"
+            android:layout_marginLeft="@dimen/x12"
+            >
+            <TextView
+                android:id="@+id/follow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="关注 51"
+                android:textColor="#737373"
+                android:textSize="16sp"
+
+                android:layout_below="@+id/name"
+                android:layout_marginTop="@dimen/x5"
+                />
+             <View
+                 android:layout_width="1dp"
+                 android:layout_height="match_parent"
+                 android:background="#737373"
+                 android:layout_marginLeft="@dimen/x8"
+                 android:layout_marginTop="@dimen/x4"
+                 />
+            <TextView
+                android:id="@+id/fans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="粉丝 300"
+                android:textColor="#737373"
+                android:textSize="16sp"
+                android:layout_marginLeft="@dimen/x10"
+                android:layout_marginTop="@dimen/x5"
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#737373"
+                android:layout_marginLeft="@dimen/x8"
+                android:layout_marginTop="@dimen/x4"
+                />
+            <TextView
+                android:id="@+id/money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="金币 300"
+                android:textColor="#737373"
+                android:textSize="16sp"
+                android:layout_marginLeft="@dimen/x10"
+                android:layout_marginTop="@dimen/x5"
+                />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/personage"
+            android:layout_width="@dimen/x50"
+            android:layout_height="@dimen/x20"
+            android:text="关注"
+            android:layout_toRightOf="@+id/head_image"
+            android:layout_marginLeft="@dimen/x12"
+            android:textColor="#737373"
+            android:textSize="16sp"
+            android:layout_below="@+id/ll_box"
+            android:layout_marginTop="@dimen/x8"
+            android:background="@drawable/button_yuanjiao"
+            android:padding="@dimen/x3"
+            />
+
+        <Button
+            android:id="@+id/compile"
+            android:layout_width="@dimen/x50"
+            android:layout_height="@dimen/x20"
+            android:text="私聊"
+            android:layout_toRightOf="@+id/personage"
+            android:layout_marginLeft="@dimen/x10"
+            android:textColor="#737373"
+            android:textSize="16sp"
+            android:layout_below="@+id/ll_box"
+            android:layout_marginTop="@dimen/x8"
+            android:background="@drawable/button_yuanjiao"
+            android:padding="@dimen/x3"
+            />
+    </RelativeLayout>
+
+    <com.ruffian.library.RVPIndicator
+        android:id="@+id/my_rvpindicator"
+        android:layout_width="@dimen/x200"
+        android:layout_height="@dimen/x50"
+        android:layout_below="@+id/rl_title"
+        android:layout_centerHorizontal="true"
+        app:text_color_normal="#333333"
+        app:text_color_selected="#ffd200"
+        app:text_size="18sp"
+        app:indicator_color="#ffd200"
+        app:indicator_style="line"
+        app:indicator_height="1dp"
+        app:indicator_visible_count="2"
+        app:style_line_padding="@dimen/x25"
+        >
+
+    </com.ruffian.library.RVPIndicator>
+
+
+    <View
+        android:id="@+id/title_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#b9b9b9"
+        android:layout_below="@+id/my_rvpindicator"
+        />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/my_viewpager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_line"
+
+        >
+
+    </android.support.v4.view.ViewPager>
+</RelativeLayout>
+    <!--</com.example.tz.tuozhe.Utils.MyScrollView>-->
+</RelativeLayout>

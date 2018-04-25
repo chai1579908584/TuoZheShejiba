@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+
+    <com.example.tz.tuozhe.Utils.NoScrollViewPager
+        android:id="@+id/home_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:flipInterval="30"
+        android:layout_above="@+id/rg_home_button"
+        android:persistentDrawingCache="animation"/>
+
+
+    <RadioGroup
+        android:id="@+id/rg_home_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        >
+        <RadioButton
+            android:id="@+id/radiobutton_home"
+            style="@style/style_home_radiobutton"
+            android:checked="true"
+            android:drawableTop="@drawable/selector_home"
+            android:text="@string/selector_home"/>
+        <RadioButton
+            android:id="@+id/radiobutton_pic"
+            style="@style/style_home_radiobutton"
+            android:drawableTop="@drawable/selector_pic"
+            android:text="@string/selector_dynamic"/>
+
+        <RadioButton
+            android:id="@+id/radiobutton_stylist_option"
+            style="@style/style_home_radiobutton"
+
+            android:drawableTop="@drawable/selector_stylist_option"
+            android:text="@string/selector_stylist_option"
+            />
+        <RadioButton
+            android:id="@+id/radiobutton_voide"
+            style="@style/style_home_radiobutton"
+            android:drawableTop="@drawable/selector_pic"
+            android:text="@string/selector_pic"/>
+
+        <RadioButton
+            android:id="@+id/radiobutton_my"
+            style="@style/style_home_radiobutton"
+            android:drawableTop="@drawable/selector_my"
+            android:text="@string/selector_my"/>
+
+
+    </RadioGroup>
+
+</RelativeLayout>

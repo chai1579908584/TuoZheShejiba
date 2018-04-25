@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.daqsoft.fdgdg.MainActivity"
+    >
+    <RelativeLayout
+        android:layout_centerHorizontal="true"
+        android:id="@+id/rl_button"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/x50"
+
+        >
+        <RelativeLayout
+            android:id="@+id/rl_yi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/x14"
+            >
+            <TextView
+                android:id="@+id/yi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="案例"
+                android:textSize="20sp"
+
+                />
+            <TextView
+                android:id="@+id/yiyi"
+                android:layout_width="@dimen/x22"
+                android:layout_height="@dimen/x1"
+                android:layout_centerHorizontal="true"
+                android:background="#ffea8e"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl_er"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/rl_yi"
+            android:layout_marginLeft="@dimen/x35"
+            android:layout_marginTop="@dimen/x14"
+            >
+            <TextView
+                android:id="@+id/er"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="视频"
+                android:textSize="20sp"
+
+                />
+            <TextView
+                android:id="@+id/erer"
+                android:layout_width="@dimen/x22"
+                android:layout_height="@dimen/x1"
+                android:layout_centerHorizontal="true"
+                android:background="#ffea8e"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+    <View
+    android:id="@+id/title_line"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#d9d9d9"
+    android:layout_below="@+id/rl_button"
+    />
+    <!--<com.example.tz.tuozhe.Utils.CustomViewPager-->
+        <!--android:id="@+id/viewpaget"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_below="@+id/title_line"-->
+        <!--&gt;-->
+
+    <!--</com.example.tz.tuozhe.Utils.CustomViewPager>-->
+<LinearLayout
+    android:id="@+id/ll_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_below="@+id/title_line"
+    >
+
+</LinearLayout>
+
+
+</RelativeLayout>

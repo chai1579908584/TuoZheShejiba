@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register.RegisterActivity_Select"
+    android:background="#ffffff"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/return_re"
+        android:layout_marginTop="@dimen/x12"
+        android:layout_marginLeft="@dimen/x8"
+        android:id="@+id/return_"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:textSize="22sp"
+        android:textColor="#333333"
+        android:layout_marginTop="@dimen/x10"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/register"
+        />
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登陆"
+        android:textColor="#f9d200"
+        android:textSize="20sp"
+        android:layout_marginTop="@dimen/x12"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/x10"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#aaaaaa"
+        android:layout_below="@+id/register"
+        android:layout_marginTop="@dimen/x9"
+        android:id="@+id/line"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/x80"
+        >
+        <RelativeLayout
+            android:id="@+id/owner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:id="@+id/owner_image"
+                android:layout_width="@dimen/x90"
+                android:layout_height="@dimen/x90"
+                android:background="@drawable/owner"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我是业主"
+                android:layout_below="@+id/owner_image"
+                android:layout_centerHorizontal="true"
+                android:textColor="#737373"
+                android:layout_marginTop="@dimen/x14"
+                android:textSize="22sp"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/stylist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/owner"
+            android:layout_marginLeft="@dimen/x65"
+            >
+
+            <ImageView
+                android:id="@+id/stylist_image"
+                android:layout_width="@dimen/x90"
+                android:layout_height="@dimen/x90"
+                android:background="@drawable/stylist_"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我是设计师"
+                android:layout_below="@+id/stylist_image"
+                android:layout_centerHorizontal="true"
+                android:textColor="#737373"
+                android:layout_marginTop="@dimen/x14"
+                android:textSize="22sp"
+                />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

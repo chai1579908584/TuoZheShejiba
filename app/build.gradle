@@ -1,0 +1,96 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
+    defaultConfig {
+        applicationId "com.example.tz.tuozhe"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.7"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+        sourceSets {
+            main{
+                jniLibs.srcDir 'libs'
+                jni.srcDirs= []
+            }
+        }
+
+    signingConfigs {
+        relealse {
+            storeFile file("E:/tuozhe.key")
+            storePassword "tuozhe8"
+            keyAlias "kkkk"
+            keyPassword "tuozhe8"
+        }
+    }
+
+
+    dexOptions {
+        incremental false
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    //noinspection GradleCompatible
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    //noinspection GradleCompatible
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile 'com.android.support:cardview-v7:25.3.1'
+    compile 'com.jude:rollviewpager:1.2.9'
+    compile 'com.github.bumptech.glide:glide:4.0.0'
+    compile 'com.squareup.okhttp3:okhttp:3.4.1'
+    compile files('libs/open_sdk.jar')
+    compile files('libs/android-async-http.jar')
+    compile 'com.github.xxl6097:okhttputils:2.4.1'
+    //打包重复Jar问题解决
+    compile 'com.android.support:support-v4:25.2.0'
+    compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.3'
+    compile 'com.android.support:percent:25.2.0'
+    compile 'org.jsoup:jsoup:1.9.2'
+    compile files('libs/bugly_crash_release.jar')
+    compile 'com.tencent.bugly:crashreport:latest.release'
+    //其中latest.release指代最新Bugly SDK版本号，也可以指定明确的版本号，例如2.1.9
+    compile 'com.tencent.bugly:nativecrashreport:latest.release'
+    //其中latest.release指代最新Bugly NDK版本号，也可以指定明确的版本号，例如3.0
+    compile files('libs/proguard.jar')
+    compile files('libs/mta-sdk-1.6.2.jar')
+    compile 'com.tencent.mm.opensdk:wechat-sdk-android-with-mta:+'
+    compile files('libs/libammsdk.jar')
+    compile files('libs/classes.jar')
+    compile files('libs/weibosdkcore.jar')
+    //retorfit2
+    compile 'com.squareup.retrofit2:retrofit:2.2.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.2.0'
+    compile 'com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0'
+    //rxjava
+    compile 'io.reactivex.rxjava2:rxjava:2.0.1'
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    compile 'com.android.support:design:23.2.1'
+    compile 'com.squareup.okio:okio:1.12.0'
+    compile 'com.ruffian.library:RVPIndicator:1.0.6'
+    compile 'liji.library.dev:citypickerview:0.7.0'
+    compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.3'
+    compile 'com.jcodecraeer:xrecyclerview:1.2.6'
+    compile project(':picture_library')
+    compile project(':ucrop')
+    compile 'com.lzy.widget:imagepicker:0.6.1'
+    //指定版本
+    compile files('libs/BaiduLBS_Android.jar')
+
+}

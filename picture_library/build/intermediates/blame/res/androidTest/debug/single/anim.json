@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\photo_album_show.xml",
+        "source": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\bundles\\debug\\res\\anim\\photo_album_show.xml"
+    },
+    {
+        "merged": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\photo_overshoot_interpolator.xml",
+        "source": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\bundles\\debug\\res\\anim\\photo_overshoot_interpolator.xml"
+    },
+    {
+        "merged": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\modal_in.xml",
+        "source": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\bundles\\debug\\res\\anim\\modal_in.xml"
+    },
+    {
+        "merged": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_exit.xml",
+        "source": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\fade_out.xml",
+        "source": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\bundles\\debug\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\photo_album_dismiss.xml",
+        "source": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\bundles\\debug\\res\\anim\\photo_album_dismiss.xml"
+    },
+    {
+        "merged": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\up_in.xml",
+        "source": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\bundles\\debug\\res\\anim\\up_in.xml"
+    },
+    {
+        "merged": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\modal_out.xml",
+        "source": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\bundles\\debug\\res\\anim\\modal_out.xml"
+    },
+    {
+        "merged": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\ucrop_close.xml",
+        "source": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\exploded-aar\\TuoZhe\\ucrop\\unspecified\\res\\anim\\ucrop_close.xml"
+    },
+    {
+        "merged": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\a5.xml",
+        "source": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\bundles\\debug\\res\\anim\\a5.xml"
+    },
+    {
+        "merged": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\fade_in.xml",
+        "source": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\bundles\\debug\\res\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\photo_anticipate_interpolator.xml",
+        "source": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\bundles\\debug\\res\\anim\\photo_anticipate_interpolator.xml"
+    },
+    {
+        "merged": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_in.xml",
+        "source": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_out.xml",
+        "source": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\ucrop_loader_circle_scale.xml",
+        "source": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\exploded-aar\\TuoZhe\\ucrop\\unspecified\\res\\anim\\ucrop_loader_circle_scale.xml"
+    },
+    {
+        "merged": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_enter.xml",
+        "source": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\down_out.xml",
+        "source": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\bundles\\debug\\res\\anim\\down_out.xml"
+    },
+    {
+        "merged": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\ucrop_loader_circle_path.xml",
+        "source": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\exploded-aar\\TuoZhe\\ucrop\\unspecified\\res\\anim\\ucrop_loader_circle_path.xml"
+    },
+    {
+        "merged": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\a3.xml",
+        "source": "F:\\Projects\\TuoZhe\\picture_library\\build\\intermediates\\bundles\\debug\\res\\anim\\a3.xml"
+    }
+]

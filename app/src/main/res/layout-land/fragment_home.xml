@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="25dp"
+    android:layout_marginTop="9dp"
+    >
+    <ImageView
+        android:layout_width="@dimen/x36"
+        android:layout_height="@dimen/y10"
+        android:layout_marginLeft="@dimen/x6"
+        android:background="#ffea8e"
+        android:id="@+id/Logo"
+        />
+    <EditText
+        android:layout_width="@dimen/x140"
+        android:layout_height="@dimen/y10"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/Logo"
+        android:background="@drawable/shousuo"
+        android:drawableLeft="@drawable/main_radiobutton_bg_selector"
+        android:id="@+id/Searchbox"
+        />
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="13dp"
+        android:layout_toRightOf="@+id/Searchbox"
+        />
+
+</RelativeLayout>
+
+</RelativeLayout>
